@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="lightGray">#F5F5F5</color>
+    <color name="semiDarkGray">#757575</color>
+    <color name="darkGray">#424242</color>
+    <color name="moreDarkGray">#212121</color>
+
+    <!-- Blue Colors -->
+    <color name="blue">#1976D2</color>
+    <color name="transparentBlue">#4D1976D2</color>
+
+    <!-- Red Colors -->
+    <color name="red">#D32F2F</color>
+    <color name="transparentRed">#4DD32F2F</color>
+
+    <!-- Green Colors -->
+    <color name="green">#388E3C</color>
+    <color name="transparentGreen">#4D388E3C</color>
+
+    <color name="actionbar_color">@color/blue</color>
+    <color name="titles_bg_color">@color/transparentBlue</color>
+
+
+    <color name="transparentBlack">#80000000</color>
+</resources>

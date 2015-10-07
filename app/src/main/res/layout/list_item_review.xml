@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/detail_medium_padding"
+    android:paddingLeft="@dimen/detail_medium_padding"
+    android:paddingRight="@dimen/detail_medium_padding"
+    android:paddingTop="@dimen/detail_medium_padding">
+
+    <ImageView
+        android:id="@+id/list_item_profileImage"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/profile_icon_2"
+        android:scaleType="fitXY" />
+
+    <TextView
+        android:id="@+id/list_item_reviewAuthor_textview"
+        android:layout_width="150dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="@dimen/detail_medium_padding"
+        android:layout_toRightOf="@id/list_item_profileImage"
+        android:gravity="center_vertical"
+        android:minHeight="?android:attr/listPreferredItemHeight"
+        android:singleLine="true"
+        android:textSize="@dimen/detail_small_textSize"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/list_item_reviewContent_textview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/list_item_reviewAuthor_textview"
+        android:layout_marginLeft="@dimen/detail_medium_padding"
+        android:layout_toRightOf="@id/list_item_profileImage"
+        android:textSize="@dimen/detail_small_textSize" />
+
+</RelativeLayout>

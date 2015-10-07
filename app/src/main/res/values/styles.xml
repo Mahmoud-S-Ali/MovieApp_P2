@@ -1,0 +1,43 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="SmallTextStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">@dimen/detail_medium_padding</item>
+        <item name="android:layout_marginLeft">@dimen/detail_medium_padding</item>
+        <item name="android:textColor">@color/semiDarkGray</item>
+        <item name="android:textSize">@dimen/detail_small_textSize</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:typeface">serif</item>
+    </style>
+
+    <style name="TitleTextStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">@dimen/detail_medium_padding</item>
+        <item name="android:textColor">@color/darkGray</item>
+        <item name="android:background">@color/titles_bg_color</item>
+        <item name="android:textSize">@dimen/detail_medium_textSize</item>
+        <item name="android:typeface">serif</item>
+    </style>
+
+    <style name="CommonLinearLayout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">@dimen/detail_medium_padding</item>
+        <item name="android:layout_marginRight">@dimen/detail_medium_padding</item>
+        <item name="android:layout_marginTop">@dimen/detail_medium_padding</item>
+        <item name="android:background">@color/white</item>
+    </style>
+
+    <style name="ForecastListStyle">
+        <!-- Here it's a stub.  In screens of sufficient width, this style includes modifications
+for two-pane layout -->
+    </style>
+
+</resources>

@@ -1,0 +1,90 @@
+<resources>
+    <string name="app_name">MovieApp</string>
+    <string name="movie_detail_label"></string>
+    <string name="action_settings">Settings</string>
+
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Some strings and arrays concerning the Sort preference -->
+    <string name="pref_sort_label"   >Sort by</string>
+    <string name="pref_sort_key"     >sort_order</string>
+    <string name="pref_sort_default" >@string/pref_sort_popular</string>
+
+    <string name="pref_sort_popular" >popularity.desc</string>
+    <!--<string name="pref_sort_topRated" >vote_average.desc</string>-->
+    <string name="pref_sort_topRated" >top_rated</string>
+    <string name="pref_sort_upcoming" >upcoming</string>
+    <string name="pref_sort_nowPlaying" >now_playing</string>
+
+    <string-array name="pref_sort_entries">
+        <item>Most Popular</item>
+        <item>Top Rated</item>
+        <item>Now Playing</item>
+        <item>Upcoming</item>
+        <item>Favorite</item>
+    </string-array>
+
+    <string-array name="pref_sort_values">
+        <item>popularity.desc</item>
+        <!--<item>vote_average.desc</item>-->
+        <item>top_rated</item>
+        <item>now_playing</item>
+        <item>upcoming</item>
+        <item>favorite</item>
+    </string-array>
+
+
+
+
+
+    <!-- Some strings and arrays concerning the Theme preference -->
+    <string name="pref_theme_label"   >Theme</string>
+    <string name="pref_theme_key"     >theme_color</string>
+    <string name="pref_theme_default" >blue</string>
+
+    <string-array name="pref_theme_entries">
+        <item>Red</item>
+        <item>Green</item>
+        <item>Blue</item>
+    </string-array>
+
+    <string-array name="pref_theme_values">
+        <item>red</item>
+        <item>green</item>
+        <item>blue</item>
+    </string-array>
+
+    <string name="pref_theme_red" >red</string>
+    <string name="pref_theme_green" >green</string>
+    <string name="pref_theme_blue" >blue</string>
+
+
+
+
+    <string name="action_share" >Share</string>
+
+    <!-- Strings of data required from The Josn String-->
+    <string name="movie_results"         translatable="false">results</string>
+    <string name="movie_id"              translatable="false">id</string>
+    <string name="movie_title"           translatable="false">title</string>
+    <string name="movie_genres"          translatable="false">genres</string>
+    <string name="movie_release_date"    translatable="false">release_date</string>
+    <string name="movie_poster_url"      translatable="false">poster_path</string>
+    <string name="movie_vote_average"    translatable="false">vote_average</string>
+    <string name="movie_overview"        translatable="false">overview</string>
+    <string name="movie_background_url"  translatable="false">backdrop_path</string>
+    <string name="poster_size"           translatable="false">w185</string>
+    <string name="background_size"       translatable="false">w780</string>
+
+    <string name="trailer_results"       translatable="false">results</string>
+    <string name="trailer_name"          translatable="false">name</string>
+    <string name="trailer_key"           translatable="false">key</string>
+    <string name="trailer_link"           translatable="false">link</string>
+
+    <string name="review_results"       translatable="false">results</string>
+    <string name="review_author"        translatable="false">author</string>
+    <string name="review_content"       translatable="false">content</string>
+
+    <string name="favorite_table"       translatable="false">favorite</string>
+
+</resources>

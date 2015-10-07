@@ -1,0 +1,21 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">8dp</dimen>
+    <dimen name="activity_vertical_margin">8dp</dimen>
+    <dimen name="grid_horizontal_margin">8dp</dimen>
+    <dimen name="grid_vertical_margin">8dp</dimen>
+
+    <!-- The main paddings and textSizes being used in the detail activity-->
+    <dimen name="detail_small_padding">4dp</dimen>
+    <dimen name="detail_medium_padding">8dp</dimen>
+    <dimen name="detail_large_padding">16dp</dimen>
+    <dimen name="detail_vLarge_padding">20dp</dimen>
+
+    <dimen name="detail_large_textSize">25sp</dimen>
+    <dimen name="detail_medium_textSize">20sp</dimen>
+    <dimen name="detail_small_textSize">16sp</dimen>
+
+    <dimen name="detail_upperLayout_height">250dp</dimen>
+    <dimen name="detail_middleLayout_height">160dp</dimen>
+
+</resources>
